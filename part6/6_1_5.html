@@ -1,0 +1,60 @@
+
+<!-- input type="color" -->
+<!-- 사용자로부터 색상을 입력받을 때는 color 타입을 활용하면 유용하다.
+버튼을 클릭하면, 색상을 선택할 수 있도록 팔레트 창이 화면에 표시된다. 
+여기서 사용자가 선택한 색상이 브라우저에 전달되는 방식이다. -->
+
+<input type="color" vale="#ff0000"/>
+
+<br/>
+<!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+
+<!-- input type="checkbox" -->
+<!-- Yes / No로 구성된 2지 선다형 체크박스를 만드는 것 -->
+
+<input type="checkbox" checked> 짜장면 <br/>
+<input type="checkbox" > 짬뽕 <br/>
+<!-- checked를 태그 안에 작성하면, 기본값으로 체크됨을 설정할 수 있다. -->
+
+<!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+
+<!-- input type="radio" -->
+<!-- 여러 선택지 중에서 하나를 선택할 때는 radio 타입을 활용하면 된다. -->
+
+<p>
+    <input type="radio" name="radio1" checked>한식
+    <input type="radio" name="radio1" >중식
+    <input type="radio" name="radio1" >양식
+    <input type="radio" name="radio1" >일식
+</p>
+
+<p>
+    <input type="radio" name="radio2" checked>아이스 아메리카노
+    <input type="radio" name="radio2">뜨거운 아메리카노
+</p>
+
+<p>
+    <input type="radio" name="radio3" checked>허니콤보
+    <input type="radio" name="radio3">레드콤보
+</p>
+
+<!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+<!-- name을 삭제한 version -->
+<p>
+    <input type="radio"  checked>한식
+    <input type="radio"  >중식
+    <input type="radio"  >양식
+    <input type="radio"  >일식
+</p>
+
+<p>
+    <input type="radio"  checked>아이스 아메리카노
+    <input type="radio" >뜨거운 아메리카노
+</p>
+
+<p>
+    <input type="radio"  checked>허니콤보
+    <input type="radio" >레드콤보
+</p>
+<!-- 한번 선택한 선택지는 해제되지 않는다. 이는 name 속성이 없기 때문이다. -->
+<!-- 마찬가지로 name이름을 똑같이 지정해주게 되면, 모든 선택지가 하나의 그룹으로 활성화 되는 것을 확인할 수 있다. -->
