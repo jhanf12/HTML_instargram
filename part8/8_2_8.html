@@ -1,0 +1,17 @@
+<style>
+    .myGrid{
+        display: grid;
+        grid-template-rows: 1fr 3fr;   
+        /* columns -> rows로 변경하면 가로에서 세로로 변경된다. */
+    }
+    #first { background-color: yellow; }
+    #second { background-color: green; }
+
+</style>
+
+<div class="myGrid">
+     1번 영역
+     2번 영역
+</div>
+
+<!-- div 태그를 없애버리면, 제대로 그리드가 적용되지 않는 것을 확인할 수 있다.  -->

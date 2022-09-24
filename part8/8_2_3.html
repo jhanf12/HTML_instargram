@@ -1,0 +1,17 @@
+<style>
+    .myGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #first { background-color: yellow; }
+    #second { background-color: green; }
+
+</style>
+
+<div class="myGrid">
+    <div id="first"> 1번 영역</div>
+    <div id="second"> 2번 영역</div>
+</div>
+
+<!--1. grid-template-columns: 1fr 1fr;   → 몇개의 열로 쪼갤지 / 열의 크기는 어떻게 되는지를 스타일 속성값으로 입력해주면 된다.
+    2. fr(부분/일부/분수) → fraction  즉,  1fr  1fr은 너비를 1:1 비율로 나누겠다 라는 의미가 된다. -->
