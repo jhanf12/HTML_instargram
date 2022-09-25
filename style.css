@@ -35,3 +35,7 @@ h2{
     text-align: center;
 }
 
+.cricle_pic {
+    border: solid white 1px;
+    border-radius: 50%;
+}
